@@ -1,0 +1,45 @@
+.one-pokemon-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.pokemon-info {
+  display: flex;
+}
+
+.right-side-info,
+.left-side-info {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+.left-side-info {
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  border: 2px black solid;
+  border-radius: 10px;
+}
+
+.right-side-info {
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.elements-container {
+  display: flex;
+  gap: 10px;
+}
+
+.pokemon-abilities,
+.pokemon-types {
+  border: 2px black solid;
+  padding: 5px;
+  border-radius: 5px;
+
+  gap: 5px;
+}

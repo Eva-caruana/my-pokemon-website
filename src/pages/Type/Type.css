@@ -1,0 +1,14 @@
+.types-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.type-element {
+  border: 2px black solid;
+  padding: 5px;
+  border-radius: 5px;
+  gap: 5px;
+}

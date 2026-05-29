@@ -1,0 +1,29 @@
+.pokemon-page-title {
+  text-align: center;
+
+  padding: 20px 0;
+}
+
+.pokemons-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.pokemon-article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border: 3px black solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 20px;
+}
+
+.pokemons-section a {
+  text-decoration: none;
+  color: black;
+}
